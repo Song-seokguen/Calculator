@@ -3,10 +3,10 @@ import java.util.Scanner;
 
 class cal extends mul{
 	public void sum(int a, int b){
-		System.out.println("+계산결과 : "+ (a+b));
+		System.out.println("++계산결과 : "+ (a+b));
 	}
 	public void min(int a, int b){
-		System.out.println("-계산결과: "+ (a-b));
+		System.out.println("--계산결과: "+ (a-b));
 	}
 }
 
