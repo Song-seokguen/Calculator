@@ -1,7 +1,7 @@
 package org.opentutorials.javatutorials.git_cal;
 import java.util.Scanner;
 
-class cal{
+class cal extends mul{
 	public void sum(int a, int b){
 		System.out.println("+계산결과 : "+ (a+b));
 	}
@@ -21,6 +21,7 @@ public class Calculator {
 		cal obj = new cal();
 		obj.sum(a,b);
 		obj.min(a,b);
+		obj.mul(a, b);
 	}
 
 }
